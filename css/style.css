@@ -1,0 +1,40 @@
+main {
+  display: grid;
+  place-content: center;
+  text-align: center;
+}
+
+.field {
+  display: grid;
+  row-gap: 4px;
+  margin-bottom: 1rem;
+}
+
+.cell {
+  width: 50px;
+  height: 50px;
+  font-size: 2.5rem;
+  text-align: center;
+  background-color: #ffffff;
+  outline: none;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+button {
+  background-color: #fff;
+  color: #3c4043;
+  cursor: pointer;
+  font-size: 14px;
+  height: 48px;
+  padding: 2px;
+  width: 100%;
+}
+
+input[disabled] {
+  color: black;
+}
